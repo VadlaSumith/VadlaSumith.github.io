@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sumith Vadla | Full Stack & AI Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="navbar">
+      <div class="logo">SV</div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <p class="eyebrow">Full Stack • AI • Data</p>
+        <h1>Hi, I’m <span class="accent">Sumith Vadla</span></h1>
+        <p class="hero-subtitle">
+          Full Stack Developer with 2+ years of experience building <strong>scalable web apps, microservices, and AI‑powered features</strong> using
+          Java, Spring Boot, Angular, and modern front‑end technologies. I love integrating LLMs, RAG pipelines, and data automation into real products.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn ghost">Contact Me</a>
+        </div>
+        <div class="hero-meta">
+          <span>📍 North York, Ontario, Canada</span>
+          <span>💼 Open to Full‑Stack / AI Engineer roles</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-badge">Full Stack & AI Developer</div>
+        <div class="hero-info">
+          <p><span>Experience:</span> 2+ Years</p>
+          <p><span>Backend:</span> Java, Spring Boot, Microservices</p>
+          <p><span>Frontend:</span> Angular, React, TypeScript</p>
+          <p><span>AI:</span> NLP, RAG, LLMs (Groq, Mistral, LLaMA)</p>
+        </div>
+        <div class="hero-links">
+          <a href="mailto:vsumith.17@gmail.com">Email</a>
+          <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+          <a href="https://github.com/VadlaSumith" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-header">
+        <h2>Experience</h2>
+        <p>End‑to‑end development across backend, frontend, AI, and operations.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Software Engineer</h3>
+            <p class="item-meta">
+              Value Momentum Software Services • Hyderabad, India • Jun 2021 – Jun 2023
+            </p>
+            <p class="item-summary">
+              Designed, developed, and maintained Java/Spring Boot microservices powering enterprise insurance platforms in an Agile/SCRUM environment.
+            </p>
+            <ul>
+              <li>Built and optimized RESTful APIs, improving response times via query tuning and caching.</li>
+              <li>Integrated backend services with Angular/JavaScript frontends for seamless UI–API flows.</li>
+              <li>Engineered modules to process structured and unstructured data, improving reporting and insights.</li>
+              <li>Improved application performance through service profiling and SQL optimization.</li>
+              <li>Contributed to automation and analytics using Python (Pandas, NumPy) for internal tools.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>IT Support Consultant – Operations</h3>
+            <p class="item-meta">
+              Lowt Center • Remote • Oct 2018 – Nov 2023
+            </p>
+            <p class="item-summary">
+              Supported CRM and operational systems, focusing on reliability, automation, and data‑driven optimization.
+            </p>
+            <ul>
+              <li>Diagnosed backend issues and improved system stability for business‑critical workflows.</li>
+              <li>Automated recurring reporting and data extraction using Python and SQL.</li>
+              <li>Optimized data pipelines and backend processes to reduce latency in logistics operations.</li>
+              <li>Collaborated with distributed teams to resolve issues and streamline processes.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="section-header">
+        <h2>Featured Projects</h2>
+        <p>Selected work combining full‑stack engineering with AI and analytics.</p>
+      </div>
+      <div class="cards-grid">
+        <article class="card">
+          <div class="card-label">AI • Full Stack • RAG</div>
+          <h3>Financial Q&A Chatbot</h3>
+          <p class="card-tech">
+            React · Flask · Groq API · MongoDB · OracleDB · LLMs
+          </p>
+          <p class="card-body">
+            Full‑stack financial assistant that answers queries using both SQL databases and SEC filings via dual LLM pipelines (SQL + RAG).
+          </p>
+          <ul class="card-list">
+            <li>Groq LLaMA‑3 70B for structured SQL‑based financial computations.</li>
+            <li>Mistral Saba 24B + MongoDB Atlas RAG for unstructured Q&A.</li>
+            <li>Secure semantic chunking, document filtering, and performance dashboards.</li>
+            <li>~98% accuracy on test queries; deployed with Netlify + Render CI/CD.</li>
+          </ul>
+          <div class="card-links">
+            <a href="https://github.com/LCIT-AIP-W25/FinQA" target="_blank">View on GitHub</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-label">AI • Frontend • Voice</div>
+          <h3>Jarvis Web Assistant</h3>
+          <p class="card-tech">
+            React · Next.js · TypeScript · Groq LLM · Vercel
+          </p>
+          <p class="card-body">
+            AI‑powered web dashboard with voice and text input, GPT‑style responses, and real‑time utilities in a modern animated UI.
+          </p>
+          <ul class="card-list">
+            <li>Integrated Groq’s Mixtral model via API for intelligent conversations.</li>
+            <li>Glassmorphism UI, smooth transitions, and light/dark mode support.</li>
+            <li>Browser‑based speech recognition and text‑to‑speech for accessibility.</li>
+            <li>Deployed on Vercel with GitHub‑driven CI/CD.</li>
+          </ul>
+          <div class="card-links">
+            <a href="https://jarvis-web-lime.vercel.app/" target="_blank">Live Demo</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-label">Analytics • BI</div>
+          <h3>E‑Commerce Sales Dashboard</h3>
+          <p class="card-tech">
+            Power BI
+          </p>
+          <p class="card-body">
+            Interactive dashboard to explore online sales across categories, regions, and time periods using dynamic visuals and drill‑downs.
+          </p>
+          <ul class="card-list">
+            <li>Custom slicers, filters, and drill‑down capabilities for exploration.</li>
+            <li>Multiple datasets integrated via joins, DAX, and Power Query.</li>
+            <li>Advanced visuals including clustered bars, donut charts, maps, and area graphs.</li>
+          </ul>
+          <div class="card-links">
+            <a href="https://github.com/VadlaSumith/powerbi-projects" target="_blank">View on GitHub</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-label">Vision • Accessibility</div>
+          <h3>Third‑Eye Object Detection</h3>
+          <p class="card-tech">
+            YOLOv8 · TensorFlow · OpenCV
+          </p>
+          <p class="card-body">
+            Web‑based computer vision app designed to assist visually impaired users with accurate, real‑time object detection.
+          </p>
+          <ul class="card-list">
+            <li>Real‑time video processing with YOLOv8 and TensorFlow.</li>
+            <li>Model tuning to improve detection accuracy by ~25%.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-header">
+        <h2>Skills</h2>
+        <p>A blend of full‑stack engineering, AI, and data analytics.</p>
+      </div>
+      <div class="skills-layout">
+        <div class="skill-column">
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span>Java</span>
+            <span>JavaScript</span>
+            <span>TypeScript</span>
+            <span>Python</span>
+            <span>SQL</span>
+          </div>
+
+          <h3>Backend</h3>
+          <div class="skill-tags">
+            <span>Spring Boot</span>
+            <span>Microservices</span>
+            <span>REST APIs</span>
+            <span>Node.js</span>
+            <span>Flask</span>
+            <span>API Gateways</span>
+          </div>
+
+          <h3>Frontend</h3>
+          <div class="skill-tags">
+            <span>Angular</span>
+            <span>React</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>Bootstrap</span>
+            <span>Responsive Design</span>
+          </div>
+        </div>
+
+        <div class="skill-column">
+          <h3>Data & AI</h3>
+          <div class="skill-tags">
+            <span>NLP</span>
+            <span>RAG Pipelines</span>
+            <span>LLM Integration</span>
+            <span>Groq</span>
+            <span>Mistral</span>
+            <span>LLaMA</span>
+            <span>SVM</span>
+            <span>Logistic Regression</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+          </div>
+
+          <h3>Cloud & DevOps</h3>
+          <div class="skill-tags">
+            <span>GCP</span>
+            <span>Azure</span>
+            <span>GitHub Actions</span>
+            <span>Vercel</span>
+            <span>Netlify</span>
+            <span>Render</span>
+            <span>Docker (Basics)</span>
+            <span>Git</span>
+          </div>
+
+          <h3>Practices & Tools</h3>
+          <div class="skill-tags">
+            <span>Agile / SCRUM</span>
+            <span>JIRA</span>
+            <span>Postman</span>
+            <span>Jupyter</span>
+            <span>Code Reviews</span>
+            <span>Clean Code</span>
+            <span>Design Patterns</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section section-alt">
+      <div class="section-header">
+        <h2>Education & Certifications</h2>
+      </div>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <h3>Ontario College Graduate Certificate</h3>
+          <p class="edu-meta">AI and Data Science • Loyalist College, Toronto</p>
+          <p class="edu-year">2023 – 2025</p>
+        </div>
+        <div class="edu-card">
+          <h3>B.Tech in Information Technology</h3>
+          <p class="edu-meta">Guru Nanak Institute of Technology, Hyderabad</p>
+          <p class="edu-year">2017 – 2021</p>
+        </div>
+      </div>
+      <div class="cert-grid">
+        <div class="cert-pill">MuleSoft Certified Developer (Level‑1)</div>
+        <div class="cert-pill">Fundamentals of UI/UX – Adobe Creative Academy</div>
+        <div class="cert-pill">IBM Machine Learning: Introduction for Everyone</div>
+        <div class="cert-pill">Google Advanced Data Analytics (In Progress)</div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p>Let’s talk about full‑stack, AI/LLM projects, or potential opportunities.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Reach Out</h3>
+          <p>📍 North York, Ontario, Canada</p>
+          <p>📧 <a href="mailto:vsumith.17@gmail.com">vsumith.17@gmail.com</a></p>
+          <p>🧑‍💻 <a href="https://github.com/VadlaSumith" target="_blank">github.com/VadlaSumith</a></p>
+          <p>🔗 <a href="https://www.linkedin.com" target="_blank">LinkedIn (add your link)</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>What I’m Looking For</h3>
+          <ul>
+            <li>Full Stack Developer roles (Java + Angular/React).</li>
+            <li>AI / GenAI Engineer roles integrating LLMs into products.</li>
+            <li>Opportunities to build agentic AI systems and RAG pipelines.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Sumith Vadla • Built with HTML, CSS & a bit of AI ✨</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
